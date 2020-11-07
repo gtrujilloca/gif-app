@@ -1,0 +1,40 @@
+*,html {
+  background: #30353f;
+  font-family: 'Courier New', Courier, monospace;
+  color: #bfd0ec;
+  
+}
+
+body{
+  padding: 2em;
+}
+
+input{
+  width: 100%;
+  font-size: 1.2em;
+}
+
+.card {
+
+  align-content: center;
+  border: 1px solid gray;
+  border-radius: 0.5 em;
+  margin: .8em .8em 0 0;
+  overflow: hidden;
+
+}
+
+.card p {
+  padding: .4em;
+  text-align: center;
+}
+
+.card img {
+  max-height: 12em;
+}
+
+.card-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
